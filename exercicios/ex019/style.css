@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+    background-color: #010221;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    color: #EDAA25;
+}
+
+
+h2{
+    color: #B7BF99;
+}
+
+p{
+    text-align: justify;
+    text-indent: 40px;
+    color: white;
+}
+
+#principal{
+    text-align: center;
+    color: #000000;
+    background-color:#ffffff;
+    transition: background-color 1s;
+}
+
+#principal:hover{
+    background-color: #ff0000;
+}
+
+.h1{
+    transition: font-size 1s;
+}
+
+.h1:hover{
+    font-size: 2.5em;
+}
+
+.basico{
+    width: 152px;
+    background-color: #00093c;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    transition: box-shadow 1s;
+}
+
+.intermediario{
+    background-color: #00093c;
+    color: #aac159;
+    width: 225px;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    transition: box-shadow 1s;
+}
+
+.avancado{
+    background-color: #00093c;
+    color: #9cc700;
+    width: 250px;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    transition: box-shadow 1s;
+}
+
+.basico:hover{
+    box-shadow: 1px 1px 5px #6d8b00;
+}
+
+.intermediario:hover{
+    box-shadow: 1px 1px 15px #6d8b00;
+}
+
+.avancado:hover{
+    box-shadow: 1px 1px 25px #6d8b00;
+}
