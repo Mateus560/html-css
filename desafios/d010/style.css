@@ -50,6 +50,11 @@ main{
     border-bottom-right-radius: 10px;
 }
 
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 main > article > h1, h2{
     color: var(--cor04);
     margin: 0px 0px 0px 10px;
@@ -139,6 +144,7 @@ a:hover{
 }
 
 aside{
+    text-align: justify;
     border-radius: 10px;
     background-color: var(--cor04);
     color: white;
