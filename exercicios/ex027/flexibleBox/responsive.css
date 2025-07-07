@@ -1,0 +1,16 @@
+@media screen and (min-width: 1260px) {
+    header {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        flex-flow: column nowrap;
+    }
+    nav{
+        flex-flow: column nowrap;
+    }
+    a{
+        width: 95vw;
+    }
+}
